@@ -1,5 +1,6 @@
-import React from 'react'
+import {scrollTrigger,SplitText} from 'gsap/all'
 
+gsap.registerPlugin(scrollTrigger,SplitText)
 const App = () => {
   return (
     <div>App</div>
